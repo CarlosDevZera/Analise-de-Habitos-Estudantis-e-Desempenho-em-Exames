@@ -48,11 +48,7 @@ plt.show()
 # Correlação com a nota
 correlacoes = matriz_de_correlacao['nota_do_exame'].sort_values()
 
-print("\nFatores que mais ATRAPALHAM a nota:")
-print(correlacoes.head(5))
 
-print("\nFatores que mais AJUDAM a nota:")
-print(correlacoes.tail(5))
 
 # Gráfico de correlação com nota
 plt.figure(figsize=(10, 5))
